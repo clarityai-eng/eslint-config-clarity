@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.clarity.ai:product/frontend/eslint-config-clarity.git"
+    "url": "https://github.com/clarityai-eng/eslint-config-clarity/"
   }
 }
