@@ -150,6 +150,7 @@ module.exports = {
     // vue-eslint
     'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/match-component-file-name': ['error'],
+    'vue/require-default-prop': 2,
   },
   parserOptions: {
     parser: 'babel-eslint',
