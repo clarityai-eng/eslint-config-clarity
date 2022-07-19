@@ -148,11 +148,12 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
     // vue-eslint
-    'vue/name-property-casing': ['error', 'kebab-case'],
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
     'vue/match-component-file-name': ['error'],
     'vue/require-default-prop': 2,
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
 };
